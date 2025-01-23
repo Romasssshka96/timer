@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eea300;
+}
+
+.timer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#days{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+}
+#hours{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+}
+#minutes{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+}
+#seconds{
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+
+}
