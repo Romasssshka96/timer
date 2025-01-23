@@ -1,4 +1,4 @@
-const deadLine = '2025-02-01T12:00:00'
+const deadLine = '2025-02-01T11:59:59.999'
 
 function getTimeValues (finish){
     const difference = Date.parse(finish) - Date.parse(new Date());
