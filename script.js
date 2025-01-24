@@ -1,4 +1,4 @@
-const deadLine = '2025-01-24T18:16:59.999'
+const deadLine = '2025-02-01T11:00:59.999'
 
 function getTimeValues (finish){
     const difference = Date.parse(finish) - Date.parse(new Date());
@@ -35,8 +35,12 @@ function setTimer (selector, finish){
 
         if(difference.total <=0){
             clearInterval(interval)
-            let element = timer.createElement('p')
-            element.textContent = 'наконец то выписался )'
+            days.innerHTML = '0';
+            hours.innerHTML = '0';
+            minutes.innerHTML = '0';
+            seconds.innerHTML = '0';
+            let text = document.querySelector(".text")
+            text.textContent = 'наконец то выписался )'
         }
     }
 }
