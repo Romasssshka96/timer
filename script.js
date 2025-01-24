@@ -35,8 +35,8 @@ function setTimer (selector, finish){
 
         if(difference.total <=0){
             clearInterval(interval)
-            let element = timer.createElement('div')
-            element.innerHTML = 'наконец то выписался )'
+            let element = timer.createElement('p')
+            element.textContent = 'наконец то выписался )'
         }
     }
 }
