@@ -50,3 +50,13 @@ setTimer('.timer', deadLine)
 
 
 console.log(new Date())
+
+const btn = document.querySelector('.btn')
+const msg = document.querySelector('.textForMyLovelyHunny')
+
+
+btn.addEventListener('click', ()=>{
+    msg.style.left = 0 + 'px';
+    msg.style.transition = 1+'s';;
+    
+})

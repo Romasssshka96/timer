@@ -85,3 +85,44 @@ body{
     font-size: 40px;
     font-weight: 700;
 }
+
+.blockForMsg{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    height: 70px;
+    color: #b120f8;
+    border: 2px, solid, black;
+    font-size: 30px;
+}
+
+.block{
+    position: relative;
+    width: 550px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.textForMyLovelyHunny{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    font-size: 30px;
+    color: rgb(255, 0, 106);
+    text-align: center;
+}
+
+.activeMsg{
+    position: absolute;
+    left: 0;
+    transition: 1s;
+}
+
+
