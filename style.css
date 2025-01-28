@@ -24,16 +24,16 @@ body{
 }
 
 .descr{
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 20px;
     color: black;
     text-transform: uppercase;
     text-align: center;
 }
 
 #days{
-    width: 150px;
-    height: 150px;
+    width: 14vw;
+    height: 24vh;
     border: 2px solid;
     font-weight: 700;
     font-size: 40px;
@@ -44,8 +44,8 @@ body{
 
 }
 #hours{
-    width: 150px;
-    height: 150px;
+    width: 14vw;
+    height: 24vh;
     border: 2px solid;
     font-weight: 700;
     font-size: 40px;
@@ -56,8 +56,8 @@ body{
 
 }
 #minutes{
-    width: 150px;
-    height: 150px;
+    width: 14vw;
+    height: 24vh;
     border: 2px solid;
     font-weight: 700;
     font-size: 40px;
@@ -68,8 +68,8 @@ body{
 
 }
 #seconds{
-    width: 150px;
-    height: 150px;
+    width: 14vw;
+    height: 24vh;
     border: 2px solid;
     font-weight: 700;
     font-size: 40px;
@@ -87,7 +87,7 @@ body{
 }
 
 .blockForMsg{
-    width: 100vw;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
