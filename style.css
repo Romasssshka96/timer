@@ -107,15 +107,15 @@ body{
 
 .block{
     position: relative;
-    width: 550px;
-    height: 100px;
+    width: 340px;
+    height: 300px;
     overflow: hidden;
 }
 
 .textForMyLovelyHunny{
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -200%;
     font-size: 30px;
     color: rgb(255, 0, 106);
     text-align: center;
